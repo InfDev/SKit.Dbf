@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexander Shlyakhto</Authors>
+    <Copyright>Copyright (C) Alexander Shlyakhto</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/InfDev/SKit.Dbf</PackageProjectUrl>
+    <RepositoryUrl>http://82.193.113.247:8081/v3/index.json</RepositoryUrl>
+    <Description>Helper for reading and writing dbf files without memo</Description>
+    <PackageTags>dbf, netstandard, netcore, csharp, C#</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotnetdbf" Version="6.0.0.3" />
+    <PackageReference Include="dotnetdbf.enumerable" Version="6.0.0.2" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
