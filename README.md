@@ -1,10 +1,10 @@
-# InfDev.Dbf
+# SKit.Dbf
 
 Helper for reading and writing dbf files without memo.  
 
 By default supports DOS (866) and Windows (1251) encodings, but this can be changed by the definition of a new configuration according to IDbfConfiguration  
 
-Used parser [DotNetDBF](https://github.com/ekonbenefits/dotnetdbf).  
+Used [DotNetDBF](https://github.com/ekonbenefits/dotnetdbf) package.  
 
 Reading example: 
 
